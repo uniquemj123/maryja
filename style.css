@@ -5,17 +5,15 @@ body{
     font-family: inter, san-serif;
     background-image:url(./Homepage.png);
     background-repeat: no-repeat;
-    background-position: 100%;
+    background-position: center;
     background-size: cover;
-    /*overflow: hidden;*/
-    /*height: 280px;*/
 }
-.account{
+.form{
+    padding: 17px 70px;
     width: 589px;
     height: 883px;
     top: 70px;
     left: 23px;
-    padding: 94px, 122px, 95px, 121px;
     border-radius: 8px;
     background-color: #FFFFFF61;  
     margin-left: 10px; 
@@ -23,9 +21,6 @@ body{
     margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 20px;
-}
-.form{
-    padding: 17px 70px;
 }
 .empty{
     width: 345px;
@@ -36,59 +31,69 @@ body{
     border: 1px;
     background: #fcfcfc;
     margin-top: 7px;  
-    border: 1px solid #E0DEDE 
+    border: 1px solid #E0DEDE; 
 }
-#field-name {
-    width: 91px;
-    height: 24px;
-    top: 35px;
-    left: 1px; 
-    padding-bottom: 20px;   
-    font-size: 16px;
-    font-family: c:\Users\HP\Downloads\Inter-Sans (1).zip;
+.eye{
+    position: relative;
+    width: 85px;
 }
-#empty-password{
+.eye1{
+   position: absolute;
+    top: 19px;
     padding-left: 300px;
 }
-.register{
+#search{
     width: 345px;
-    height: 48px;
-    top: 524px;
+    height: 45px;
+    top: 65px;
     left: 1px;
-    border-radius: 8px;
-    background: #6DA01E;
-    font-size: 18px; 
-    border: none; 
-    font-family: Montserrat;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0em;
-    
-}
-.register-with{
-    width: 345px;
-    height: 48px;
-    top: 596px;
-    left: 1px;
-    padding: 12px, 73px, 12px, 73px;
     border-radius: 8px;
     border: 1px;
-    font-size: 18px;
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    padding-left: 70px;
-    color: #6DA01E;
+    background: #fcfcfc;
+    margin-top: 7px;  
     border: 1px solid #E0DEDE
-
 }
-h3{
-font-family: Poppins;
-font-size: 18px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
+.sp7{
+    width: 345px;
+    height: 48px;
+    left: 1px;
+    border-radius: 8px;
+    border: 1px;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+    top: 596px;
+    border-color: #6DA01E;   
+}
+.sp7 a{
+    width: 160px;
+    height: 24px;
+    top: 12px;
+    left: 73px;
+    text-decoration: none;
+    color: #6DA01E;
+    padding-right: 1.5rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+.google{
+    width: 23.74px;
+    height: 18.42px;
+    top: 1.5px;
+    left: 2.64px;   
+}
+#registers{
+    background-color: #6DA01E;
+}
+#registers a{
+    color: #000;
+}
+h4{
+   font-family: Poppins;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0em;
+   text-align: left;
 
 }
 .login{
@@ -100,4 +105,219 @@ text-align: left;
     text-decoration: none;
     color: #6DA01E;
     font-family: Poppins;
+    font-weight: bold;
+}
+
+@media(max-width: 600px) {
+    body {
+       margin: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-size: auto;
+    }
+    h1{
+        top: 0px;
+        margin-top: 0px;
+    }
+    .form{
+        width: 300px;
+        height: 883px;
+        top: 0px;
+        left: 23px;
+        border-radius: 8px;
+        background-color: #FFFFFF61;  
+        margin-left: 40px; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+    .eye{
+        position: relative;
+        width: 85px;
+    }
+    .eye1{
+       position: absolute;
+        top: 19px;
+        padding-left: 300px;
+    }
+    #search{
+        width: 345px;
+        height: 45px;
+        top: 65px;
+        left: 1px;
+        border-radius: 8px;
+        border: 1px;
+        background: #fcfcfc;
+        margin-top: 7px;  
+        border: 1px solid #E0DEDE
+    }
+    .sp7{
+        width: 345px;
+        height: 48px;
+        left: 1px;
+        border-radius: 8px;
+        border: 1px;
+        margin-bottom: 1.5rem;
+        background-color: #ffffff;
+        top: 596px;
+        border-color: #6DA01E;   
+    }
+    .sp7 a{
+        width: 160px;
+        height: 24px;
+        top: 12px;
+        left: 73px;
+        text-decoration: none;
+        color: #6DA01E;
+        padding-right: 1.5rem;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .google{
+        width: 23.74px;
+        height: 18.42px;
+        top: 1.5px;
+        left: 2.64px;   
+    }
+    #registers{
+        background-color: #6DA01E;
+        margin-top: 1rem;
+    }
+    #registers a{
+        color: #000;
+    }
+    .registers a:hover{
+        color: red;
+    }
+    h4{
+       font-family: Poppins;
+       font-size: 18px;
+       font-weight: 400;
+       line-height: 24px;
+       letter-spacing: 0em;
+       text-align: left;
+    
+    }
+    .login{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.30000001192092896px;
+        text-align: left;
+        text-decoration: none;
+        color: #6DA01E;
+        font-family: Poppins;
+        font-weight: bold;
+    }  
+}
+@media(max-width: 720px) {
+    body {
+       margin: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-size: auto;
+    }
+    h1{
+        top: 0px;
+        margin-top: 0px;
+    }
+    .form{
+        width: 300px;
+        height: 883px;
+        top: 50px;
+        left: 23px;
+        border-radius: 8px;
+        background-color: #FFFFFF61;  
+        margin-left: 40px; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+    .eye{
+        position: relative;
+        width: 85px;
+    }
+    .eye1{
+       position: absolute;
+        top: 19px;
+        padding-left: 300px;
+    }
+    #search{
+        width: 345px;
+        height: 45px;
+        top: 65px;
+        left: 1px;
+        border-radius: 8px;
+        border: 1px;
+        background: #fcfcfc;
+        margin-top: 7px;  
+        border: 1px solid #E0DEDE
+    }
+    .sp7{
+        width: 345px;
+        height: 48px;
+        left: 1px;
+        border-radius: 8px;
+        border: 1px;
+        margin-bottom: 1.5rem;
+        background-color: #ffffff;
+        top: 596px;
+        border-color: #6DA01E;   
+    }
+    .sp7 a{
+        width: 160px;
+        height: 24px;
+        top: 12px;
+        left: 73px;
+        text-decoration: none;
+        color: #6DA01E;
+        padding-right: 1.5rem;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .google{
+        width: 23.74px;
+        height: 18.42px;
+        top: 1.5px;
+        left: 2.64px;   
+    }
+    #registers{
+        background-color: #6DA01E;
+        margin-top: 1rem;
+    }
+    #registers a{
+        color: #000;
+    }
+    .registers a:hover{
+        color: red;
+    }
+    h4{
+       font-family: Poppins;
+       font-size: 18px;
+       font-weight: 400;
+       line-height: 24px;
+       letter-spacing: 0em;
+       text-align: left;
+    
+    }
+    .login{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.30000001192092896px;
+        text-align: left;
+        text-decoration: none;
+        color: #6DA01E;
+        font-family: Poppins;
+        font-weight: bold;
+    }
+    
 }

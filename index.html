@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
-    <link rel="shortcut icon" href="/image/mjlogo.jpg">
+    <link rel="shortcut icon" href="/google.png">
     <meta name="description " content=" creating account">
     <meta name="keywords" content="accounts, register ">
     <meta name="author" content="Nwankwo Maryjane">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" > 
 </head>
 <body>
-  <div class="account">
-    
-    <div class="form">
+  <div class="account"> 
+    <form action="" class="form">
         <h1>Create an account</h1>
         <div class="field">
             <label for="Full name" id="field-name">Full Name</label>
@@ -39,26 +38,33 @@
         <div class="field">
             <label for="password" id="field-name">Password</label>
              <br>
-            <button type="password" class="empty" id="empty-password"><img src="eye-slash.png" alt=""></button>
-            <br>
+            <div class="eye">
+                <input type="password" id="search"><img class="eye1" src="eye-slash.png" alt=""></input>
+              <br>
+            </div>
         </div>
-          <br>
+        <br>
         <div class="field">
-            <label for="confirm password" id="field-name">Confirm password</label>
-            <br>
-            <button type="password" class="empty" id="empty-password"><img src="eye-slash.png" alt=""></button>
+            <label for="password" id="field-name"> Confirm Password</label>
+                <br>
+            <div class="eye">
+                   <input type="password" id="search"><img class="eye1" src="eye-slash.png" alt=""></input>
+                <br>
+            </div>
         </div>
         <br>
-        <div class="button-container">
-            <button class="register">Register</button>
-        </div>
+        <button class="sp7" id="registers">
+            <a href="">Register</a>
+        </button>
         <br>
-        <div class="button-container">
-            <button class="register-with">Register with Google <img src="google.png" alt=""></button>
-        </div>
+        <button class="sp7">
+            <a href="">Register with Google</a>
+            <img class="google" src="google.png" alt="">
+        </button>
         <br>
-        <h3>Already have an account? <a href="login" class="login">login</a></h3>
-    </div>
+
+        <h4>Already have an account? <a href="login" class="login">login</a></h4>
+    </form>
 
   </div>  
 </body>
